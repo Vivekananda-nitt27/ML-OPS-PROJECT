@@ -1,2 +1,6 @@
-from us_visa.logger import  logging
-logging.info("the logger is deplayed")
+from us_visa.pipline.training_pipeline import TrainPipeline
+
+obj=TrainPipeline()
+
+obj.run_pipeline()
+
